@@ -1,0 +1,58 @@
+{
+  "random_state": 42,
+  "cross_validation": "5-fold stratified, shuffled, repeated 3 times",
+  "stress_test_validation": "5-fold stratified group validation using connected family-ticket groups",
+  "selection_metric": "one-standard-error shortlist plus group robustness",
+  "selection_rationale": {
+    "rule": "Best group-aware accuracy among non-baseline models within one standard error of the best repeated-CV accuracy",
+    "best_repeated_cv_accuracy": 0.8286359927185991,
+    "best_model_standard_error": 0.005143541170137315,
+    "shortlist_threshold": 0.8234924515484618,
+    "shortlisted_models": [
+      "Extra trees",
+      "Logistic regression",
+      "Random forest",
+      "Gradient boosting"
+    ]
+  },
+  "selected_model": "Extra trees",
+  "train_rows": 891,
+  "test_rows": 418,
+  "positive_target_rate": 0.3838383838383838,
+  "candidate_submission_file": "outputs/submission_candidate.csv",
+  "selected_model_metrics": {
+    "model": "Extra trees",
+    "accuracy_mean": 0.8278890214048082,
+    "accuracy_std": 0.016923750223155887,
+    "precision_mean": 0.8088427768484607,
+    "precision_std": 0.038967632131317105,
+    "recall_mean": 0.7251491901108271,
+    "recall_std": 0.023232374150075348,
+    "f1_mean": 0.763988883876566,
+    "f1_std": 0.02049414600284923,
+    "roc_auc_mean": 0.8797454809243566,
+    "roc_auc_std": 0.019202553978197395,
+    "fit_time_mean_seconds": 0.6275756518046062
+  },
+  "selected_model_group_metrics": {
+    "model": "Extra trees",
+    "accuracy_mean": 0.8238361266294227,
+    "accuracy_std": 0.026780967975461267,
+    "precision_mean": 0.802983965268448,
+    "precision_std": 0.04585189074428245,
+    "recall_mean": 0.7191815856777494,
+    "recall_std": 0.036979302530128384,
+    "f1_mean": 0.7581704486941725,
+    "f1_std": 0.035167472147901536,
+    "roc_auc_mean": 0.865804824681382,
+    "roc_auc_std": 0.02115987708006672,
+    "fit_time_mean_seconds": 0.410371208190918
+  },
+  "top_source_features": [
+    "Sex",
+    "Name",
+    "SibSp",
+    "Parch",
+    "Pclass"
+  ]
+}

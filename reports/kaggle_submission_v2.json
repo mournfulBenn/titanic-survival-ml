@@ -1,0 +1,14 @@
+{
+  "competition": "Titanic: Machine Learning from Disaster",
+  "version": 2,
+  "submission_file": "outputs/submissions/submission_v2_extra_trees_score_0.78229.csv",
+  "sha256": "f934700ce153f363b6e80a87853d0da6d0493d9b7f684a8de7be0b9e9e8cd232",
+  "model": "Extra trees",
+  "status": "submitted",
+  "created_on": "2026-07-27",
+  "submitted_on": "2026-07-27",
+  "leaderboard_score": 0.78229,
+  "absolute_improvement_over_v1": 0.00478,
+  "predictions_changed_from_v1": 12,
+  "submission_url": "https://www.kaggle.com/competitions/titanic/submissions"
+}

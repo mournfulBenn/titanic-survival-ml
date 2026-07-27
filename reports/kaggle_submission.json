@@ -1,0 +1,8 @@
+{
+  "competition": "Titanic: Machine Learning from Disaster",
+  "submission_file": "outputs/submissions/submission_v1_random_forest_score_0.77751.csv",
+  "sha256": "801a9f31fdbdbddbf022621c7550bbe9993401cb91ac94a418eed6a8266949f7",
+  "leaderboard_score": 0.77751,
+  "submitted_on": "2026-07-20",
+  "notes": "Score supplied after submitting the generated random-forest predictions."
+}

@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.matplotlib/
+.DS_Store
+Thumbs.db
+
+# Preserve the unedited student-era script locally without publishing it.
+archive/
+
+# Competition data stays local. Users should accept Kaggle's rules and download it.
+data/raw/*.csv
+!data/raw/.gitkeep
+
+# Rebuildable binary artifact.
+outputs/*.joblib
+outputs/submission.csv
+outputs/submission_candidate.csv
+outputs/submissions/*_candidate.csv
